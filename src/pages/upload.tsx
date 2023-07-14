@@ -29,7 +29,7 @@ const Upload = () => {
     //@ts-ignore
     const provider = new providers.Web3Provider(window.ethereum);
     const bundlr = new WebBundlr(
-      "https://devnet.bundlr.network",
+      "https://node1.bundlr.network",
       "matic",
       provider,
     );
